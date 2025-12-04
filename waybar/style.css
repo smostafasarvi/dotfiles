@@ -1,0 +1,86 @@
+* {
+  font-family: "Fira Code", Vazirmatn;
+  font-size: 13px;
+  color: #cad3f5;
+}
+
+#waybar {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+#workspaces {
+  background-color: #24273a;
+  padding: 4px 10px;
+  margin: 10px 0 5px 10px;
+  border-radius: 12px;
+}
+
+#clock {
+  margin: 10px 0 5px 0;
+  background-color: #24273a;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+#tray,
+#battery,
+#language,
+#pulseaudio,
+#custom-power {
+  background-color: #24273a;
+  border-radius: 0;
+  margin: 10px 0 5px 0;
+  padding: 4px 8px;
+}
+
+#battery {
+  color: #04a5e5;
+}
+
+#battery.good {
+  color: #cad3f5;
+}
+
+#battery.warning {
+  color: #eed49f;
+}
+
+#battry.critical {
+  color: #ed8796;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #a6da95;
+}
+
+#pulseaudio {
+  border-radius: 12px 0 0 12px;
+}
+
+#custom-power {
+  border-radius: 0 12px 12px 0;
+  margin-right: 10px;
+}
+
+#workspaces button:hover {
+  background-color: rgba(97, 175, 239, 0.2);
+  color: #ffffff;
+}
+
+#workspaces button.active {
+  background-color: #1e2030;
+  color: #ffffff;
+}
+
+#workspaces button {
+  background: transparent;
+  border: none;
+  color: rgb(236, 254, 255);
+  padding: 0px 4px;
+  margin: 2px;
+  font-weight: bold;
+}
