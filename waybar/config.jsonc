@@ -77,7 +77,9 @@
     "on-click": "pavucontrol"
   },
   "hyprland/language": {
-    "format": "{short}"
+    "format": "{}",
+    "format-en": "en",
+    "format-fa": "fa"
   },
   "custom/media": {
     "format": "{icon} {text}",
