@@ -20,7 +20,8 @@
     "custom/power"
   ],
   "hyprland/workspaces": {
-    "format": "{icon}"
+    "format": "{icon}",
+    "show-special": true
   },
   "tray": {
     // "icon-size": 21,
